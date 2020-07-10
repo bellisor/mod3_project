@@ -98,27 +98,6 @@ y - has the client subscribed a term deposit? (binary: 'yes', 'no')
 8. Model Tuning
 9. Analysis & Conclusion
 
-## Results
-Upon review of the data, there is a statistical relationship between aggressive play and goal scoring. That relationship however is that players with less hits score more goals than players with a high amount of hits. This can be explained by players with a high amount of hits also have a high amount of penalty minutes and therefore less amount of time on the ice. 
-
-When evaluating the importance of features the three features with the highest coefficients were:
-
-* Number of shots
-* Amount of time on ice
-* Number of hits
-
-Model R^2 is 0.85
-
-The model has a high r^2 and an accuracy score of 98%
-
-Train Mean Squarred Error: 14.720119406131744
-Test Mean Squarred Error: 13.939463556526688
-
-The Mean Squarred Error of the training data is very close to the MSE of the Test Data, which is very good. 
-
-An intersting note is that the MSE of the Test data is lower than the MSE of the training data which is rare.
-
-
 
 
 ## Conclusion
